@@ -4,7 +4,7 @@ from tkmacosx import Button
 #Creates window
 root = Tk()
 root.title("This Is The Greatest Text Editor Of All Time")
-root.geometry("600x500")
+root.geometry("600x400")
 
 #Buttons, text, etc.
 file_button = Button(root, text="File")
