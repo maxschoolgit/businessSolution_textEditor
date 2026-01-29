@@ -6,7 +6,10 @@ def writeFile():
 		f.write(typing_box.get("1.0",END))
 
 def readFile():
-	with open("demofile.txt", '')
+	with open("demofile.txt", 'r') as f:
+		content = f.read()
+		typing_box.insert('1.0', content)
+		print("works")
 
 #Creates window
 root = Tk()
